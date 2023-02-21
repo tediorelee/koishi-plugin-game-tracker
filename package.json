@@ -1,0 +1,34 @@
+{
+  "name": "koishi-plugin-game-tracker",
+  "description": "stats tracker for your games(battlefield 2042)",
+  "author": {
+    "name": "TEDIORELEE",
+    "email": "tediorelee@gmail.com",
+    "url": "https://github.com/tediorelee"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tediorelee/koishi-plugin-game-tracker.git"
+  },
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.10.3"
+  },
+  "dependencies": {
+    "chatgpt": "^2.0.5"
+  }
+}
